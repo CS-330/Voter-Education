@@ -79,7 +79,9 @@ a.no-format-link{
   	padding-left: 1px;
 }
 
-.albums-album-art {
+.candidate-photo {
+	width: 130px;
+	height: 130px;
 	padding-bottom: 10px;
 }
 

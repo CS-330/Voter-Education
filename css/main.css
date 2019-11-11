@@ -76,11 +76,13 @@ a.no-format-link{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	overflow-y: scroll;
+	padding-top: 20px;
 }
-.albums-album-wrapper {
+.candidate-wrapper {
 	text-align:center;
 	align-content: center;
-	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .candidate-photo {
@@ -88,13 +90,13 @@ a.no-format-link{
 	height: 128px;
 }
 
-.albums-album-name {
+.candidate-name {
 	font-weight: bold;
 	font-size: 15px;
 	width: 128px;
 }
 
-.albums-artist-name {
+.candidate-party {
 	font-style: italic;
 	font-size: 15px;
 }

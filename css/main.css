@@ -71,23 +71,27 @@ a.no-format-link{
 /* 
 	Albums 
 			*/
+.candidates-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 .albums-album-wrapper {
 	text-align:center;
 	align-content: center;
 	padding-top: 20px;
-  	padding-right: 1px;
-  	padding-left: 1px;
 }
 
 .candidate-photo {
-	width: 130px;
-	height: 130px;
-	padding-bottom: 10px;
+	width: 128px;
+	height: 128px;
 }
 
 .albums-album-name {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 15px;
+	width: 128px;
 }
 
 .albums-artist-name {

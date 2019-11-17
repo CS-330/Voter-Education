@@ -39,8 +39,21 @@ body {
 	font-size: 12px;
 }
 
-.stancebar {
+.stancebar{
+	-webkit-appearance: none;
+	background: #d3d3d3;
+	height: 15px;
 	align-self:right;
+	width: 190px;
+	margin-top: 13px;
+	margin-right: 10px;
+}
+
+.stancebar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #660066;
 }
 
 .stance{
@@ -52,9 +65,9 @@ body {
 }
 
 #barlabel {
-	font-size: 10px;
+	font-size: 12px;
 	text-align: right;
-	word-spacing: 40px;
+	word-spacing: 95px;
 	margin-right: 5px;
 	margin-bottom: -10px;
 }

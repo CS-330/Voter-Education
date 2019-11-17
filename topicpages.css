@@ -37,6 +37,7 @@ body {
 }
 .stancelabel {
 	font-size: 12px;
+	align-self:left;
 }
 
 .stancebar{

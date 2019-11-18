@@ -3,77 +3,74 @@
     <head>
         <title>Candidates</title>
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <script type="text/javascript" src="src/candidates.js"></script>
     </head>
     <body>
         <div id="screen">
-          <div class="candidates-wrapper">
-                <a href="spongebob.html" class="no-format-link">
-                    <div class="candidate-wrapper">
-                        <img class="candidate-photo" src="images/candidates/spongebob.png" alt="Spongebob Profile Link">
-                        <div class="candidate-name">
-                            Spongebob Squarepants
-                        </div>
-                        <div class="candidate-party">
-                            Democrat
-                        </div>
-                    </div>
-                </a>
+            <header>
+                <button id="compareButton" onclick="toggleCompare()">
+                    Compare
+                </button>
+            </header>
+            <div class="candidates-wrapper">
 
-                <a href="patrick.html" class="no-format-link">
-                    <div class="candidate-wrapper">
-                            <img class="candidate-photo" src="images/candidates/patrick.png" alt="Patrick Profile Link">
-                            <div class="candidate-name">
-                                Patrick Star
-                            </div>
-                            <div class="candidate-party">
-                                Republican
-                            </div>
+                <div class="candidate-wrapper" id="spongebob" onclick="selectCandidate(this)">
+                    <img class="candidate-photo" src="images/candidates/spongebob.png" alt="Spongebob Profile Link">
+                    <div class="candidate-name">
+                        Spongebob Squarepants
                     </div>
-                </a>
+                    <div class="candidate-party">
+                        Democrat
+                    </div>
+                </div>
 
-                <a href="mrKrabs.html" class="no-format-link">
-                    <div class="candidate-wrapper">
-                        <img class="candidate-photo" src="images/candidates/mrKrabs.png" alt="Mr Krabs Profile Link">
+                <div class="candidate-wrapper" id="patrick" onclick="selectCandidate(this)">
+                        <img class="candidate-photo" src="images/candidates/patrick.png" alt="Patrick Profile Link">
                         <div class="candidate-name">
-                            Eugene Krabs
+                            Patrick Star
                         </div>
                         <div class="candidate-party">
                             Republican
                         </div>
-                    </div>
-                </a>
+                </div>
 
-                <a href="squidward.html" class="no-format-link">
-                    <div class="candidate-wrapper">
-                        <img class="candidate-photo" src="images/candidates/squidward.png" alt="Squidward Profile Link">
-                        <div class="candidate-name">
-                            Squidward Tentacles
-                        </div>
-                        <div class="candidate-party">
-                            Democrat
-                        </div>
+                <div class="candidate-wrapper" id="mrKrabs" onclick="selectCandidate(this)">
+                    <img class="candidate-photo" src="images/candidates/mrKrabs.png" alt="Mr Krabs Profile Link">
+                    <div class="candidate-name">
+                        Eugene Krabs
                     </div>
-                </a>
-
-                <a href="gary.html" class="no-format-link">
-                    <div class="candidate-wrapper">
-                        <img class="candidate-photo" src="images/candidates/gary.png" alt="Gary Profile Link">
-                        <div class="candidate-name">
-                            Gary Squarepants
-                        </div>
-                        <div class="candidate-party">
-                            Green Party
-                        </div>
+                    <div class="candidate-party">
+                        Republican
                     </div>
-                </a>
+                </div>
 
-          </div>
-              <div class="nav-bar">
-                  <div class="w3-bar" id="myNavbar">
+                <div class="candidate-wrapper" id="squidward" onclick="selectCandidate(this)">
+                    <img class="candidate-photo" src="images/candidates/squidward.png" alt="Squidward Profile Link">
+                    <div class="candidate-name">
+                        Squidward Tentacles
+                    </div>
+                    <div class="candidate-party">
+                        Democrat
+                    </div>
+                </div>
+
+                <div class="candidate-wrapper" id="gary" onclick="selectCandidate(this)">
+                    <img class="candidate-photo" src="images/candidates/gary.png" alt="Gary Profile Link">
+                    <div class="candidate-name">
+                        Gary Squarepants
+                    </div>
+                    <div class="candidate-party">
+                        Green Party
+                    </div>
+                </div>
+
+           </div>
+               <div class="nav-bar">
+                   <div class="w3-bar" id="myNavbar">
                         <a class="no-format-link nav-button-active left" href="candidates.html">Candidates</a>
                         <a class="no-format-link nav-button right" href="topics.html">Topics</a>
-                  </div>
-              </div>
+                   </div>
+               </div>
         </div>
    </body>
 </html>

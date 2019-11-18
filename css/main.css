@@ -38,6 +38,20 @@ body {
 	padding-top: 7px;
 	background-color: white;
 }
+
+#compareButton {
+	height: 30px;
+	width: 45px;
+	background-color: lightblue;
+}
+
+#compareButton.clicked {
+	background-color: blue;
+}
+
+.candidate-wrapper.clicked {
+	background: #ff99ff;
+}
 /* 
 	style for left and right divs 
 			*/

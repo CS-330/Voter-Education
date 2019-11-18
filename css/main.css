@@ -45,6 +45,13 @@ body {
 	background-color: lightblue;
 }
 
+#runComparisonButton {
+	height: 30px;
+	width: 45px;
+	background-color: lightblue;
+	display: none;
+}
+
 #compareButton.clicked {
 	background-color: blue;
 }
@@ -97,6 +104,7 @@ a.no-format-link{
 	text-align:center;
 	align-content: center;
 	padding-bottom: 10px;
+	cursor: pointer;
 }
 
 .candidate-photo {

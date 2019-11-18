@@ -12,14 +12,16 @@ function toggleCompare() {
     numSelected = 0;
 
     var candidates = document.getElementsByClassName('candidate-wrapper');
-
     for (var i = 0; i < candidates.length; i++) {
         candidates[i].classList.remove('clicked');
     }
+
+    document.getElementById('runComparisonButton').style.display = "none";
 }
 
 function selectCandidate(element) {
     if(isCompare) {
+        document.getElementById('runComparisonButton').style.display = "none";
         if(element.classList.contains('clicked')) {
             element.classList.remove('clicked');
             numSelected--;
@@ -27,14 +29,22 @@ function selectCandidate(element) {
             element.classList.add('clicked');
             numSelected++;
             if(numSelected == 2) {
-                activativeCompare();
+                activateCompare();
             }
         }else {
             alert("Only 2 candidates can be selected for comparison");
         }
     }else {
-        location.href = "./" + element.id + ".html"
+        location.href = element.id + ".html"
     }
+}
+
+function activateCompare() {
+    console.log("here");
+    document.getElementById('runComparisonButton').style.display = "inline";
+    var selected = document.getElementsByClassName('candidate-wrapper clicked');
+    localStorage.setItem("candidate0", selected[0].id);
+    localStorage.setItem("candidate1", selected[1].id);
 }
 
 window.onload = init();

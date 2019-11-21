@@ -21,8 +21,8 @@ function toggleCompare() {
 
 function selectCandidate(element) {
     if(isCompare) {
-        document.getElementById('runComparisonButton').style.display = "none";
         if(element.classList.contains('clicked')) {
+            document.getElementById('runComparisonButton').style.display = "none";
             element.classList.remove('clicked');
             numSelected--;
         }else if(numSelected < 2) {

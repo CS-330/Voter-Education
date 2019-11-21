@@ -2,44 +2,45 @@
     <head>
         <title>Squidward's Page</title>
         <link rel="stylesheet" type="text/css" href="candidatepages.css"/>
+        <script type="text/javascript" src="src/candidatepage.js"></script>
     </head>
-    <body>
+    <body onload="init('squidward')">
         <div id="screen">
               <div class="head-bar">
-                    <h1 >S. Tentacles</h1>
+                    <h1 id = "name"></h1>
               </div>
-              <img class = "profilePic" src="images/candidates/squidward.png" alt="Squidward's Profile Picture">
+              <img id = "profilePic" src="" alt="">
               <p id="barlabel">Liberal Conservative</p>
 
               <div class = "stances"> 
-                <div class = "stance">
+                <div class = "stance" id = "healthcare">
                   <p class = "stancelabel">Healthcare: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "immigration">
                   <p class = "stancelabel">Immigration: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "taxes">
                   <p class = "stancelabel">Taxes: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "guns">
                   <p class = "stancelabel">Gun control: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "foreign">
                   <p class = "stancelabel">Foreign affairs: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "LGBTQ">
                   <p class = "stancelabel">LGBTQ+ rights: </p> 
                   <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
                 </div>
               </div>
-              <a href = "candidates.html"> 
-	        	<img class = "back-button" src="images/backarrow.png" alt="back arrow"> <!-- image of arrow -->
-	          </a>
+              <a href = "candidates.html">
+    	        	<img class = "back-button" src="images/backarrow.png" alt="back arrow"> <!-- image of arrow -->
+    	        </a>
         </div>
    </body>
 </html>

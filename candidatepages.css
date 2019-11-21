@@ -26,7 +26,7 @@ body {
 	color: white;
 }
 
-.profilePic{
+#profilePic{
 	padding-top: 10px;
 	margin-left: 75;
 	height: 150px;

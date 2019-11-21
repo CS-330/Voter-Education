@@ -1,5 +1,6 @@
 {
-	"gary":{
+	"topics": ["healthcare", "immigration", "taxes", "guns", "foreign", "LGBTQ"],	
+	"gary": {
 		"name": "Gary Squarepants",
 		"shortname": "G. Squarepants",
 		"image": "images/candidates/gary.png",
@@ -8,9 +9,9 @@
 			"healthcare": 20,
 			"immigration": 15,
 			"taxes": 30,
-			"guns":23,
-			"foreign":21,
-			"LGBTQ":25
+			"guns": 23,
+			"foreign": 21,
+			"LGBTQ": 25
 		}
 	},
 	"mrKrabs":{
@@ -22,9 +23,9 @@
 			"healthcare": 100,
 			"immigration": 90,
 			"taxes": 100,
-			"guns":80,
-			"foreign":85,
-			"LGBTQ":70
+			"guns": 80,
+			"foreign": 85,
+			"LGBTQ": 70
 		}
 	},
 	"patrick":{
@@ -36,9 +37,9 @@
 			"healthcare": 80,
 			"immigration": 70,
 			"taxes": 65,
-			"guns":75,
+			"guns": 75,
 			"foreign": 65,
-			"LGBTQ":55
+			"LGBTQ": 55
 		}
 	},
 	"spongebob":{
@@ -50,9 +51,9 @@
 			"healthcare": 10,
 			"immigration": 15,
 			"taxes": 12,
-			"guns":17,
-			"foreign":5,
-			"LGBTQ":9
+			"guns": 17,
+			"foreign": 5,
+			"LGBTQ": 9
 		}
 	},
 	"squidward":{
@@ -64,9 +65,9 @@
 			"healthcare": 40,
 			"immigration": 60,
 			"taxes": 40,
-			"guns":55,
-			"foreign":45,
-			"LGBTQ":42
+			"guns": 55,
+			"foreign": 45,
+			"LGBTQ": 42
 		}
 	}
 }

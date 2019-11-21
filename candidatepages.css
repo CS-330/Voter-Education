@@ -26,41 +26,6 @@ body {
 	color: white;
 }
 
-.comparePicL{
-	margin-top: 10px;
-	margin-left: 30px;
-	height: 100px;
-	width: 100px;
-	border: 5px solid #660066;
-
-}
-.comparePicR{
-	margin-top: 10px;
-	margin-left: 20px;
-	height: 100px;
-	width: 100px;
-	border: 5px solid #ff9900;
-}
-.compareNameL{
-	font-size: 12pt;
-	background-color: #660066;
-	color:white;
-	padding: 2px;
-}
-.compareNameR{
-	font-size: 12pt;
-	background-color: #ff9900;
-	color:white;
-	padding: 2px;
-}
-.compareNames{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 300px;
-	margin-top: -10px;
-}
 .profilePic{
 	padding-top: 10px;
 	margin-left: 75;
@@ -90,25 +55,6 @@ body {
 	margin-right: 10px;
 }
 
-.compareStanceTop{
-	-webkit-appearance: none;
-	background: #d3d3d3;
-	height: 15px;
-	align-self:right;
-	width: 190px;
-	margin-top: 13px;
-	margin-right: 10px;
-}
-
-.compareStanceBot{
-	-webkit-appearance: none;
-	background: #d3d3d3;
-	height: 15px;
-	align-self:right;
-	width: 190px;
-	margin-right: 10px;
-}
-
 .stancebar::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 15px;
@@ -121,34 +67,12 @@ body {
 	margin-top: -10px;
 }
 
-.compareStanceTop::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 15px;
-  height: 15px;
-  background:  #660066;
-}
-
-.compareStanceBot::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 15px;
-  height: 15px;
-  background: #ff9900;
-}
-
 .stance{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 300px;
-}
-.compareStance{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 300px;
-	margin-bottom: 7px;
 }
 
 .barWrapper{

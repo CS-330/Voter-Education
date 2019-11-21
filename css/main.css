@@ -39,15 +39,20 @@ body {
 	background-color: white;
 }
 
+button {
+	border: none;
+    margin: 10px;
+    height: 40px;
+    font-size: 12pt;
+}
+
 #compareButton {
-	height: 30px;
-	width: 45px;
+	width: 80px;
 	background-color: lightblue;
 }
 
 #runComparisonButton {
-	height: 30px;
-	width: 45px;
+	width: 50px;
 	background-color: lightblue;
 	display: none;
 }
@@ -98,7 +103,6 @@ a.no-format-link{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	overflow-y: scroll;
-	padding-top: 20px;
 }
 .candidate-wrapper {
 	text-align:center;

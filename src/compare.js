@@ -1,10 +1,9 @@
-var data;
-
-function loadJSON(callback) {   
+function loadJSON(callback) {
+    /* Source: https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript */
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'https://cs-330.github.io/Voter-Education/data.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', 'https://cs-330.github.io/Voter-Education/data.json', true);
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -21,7 +20,6 @@ function init() {
         console.log(data);
 
         candidates = [localStorage['candidate0'], localStorage['candidate1']];
-        //candidates = ['mrKrabs', 'gary'];
         console.log(candidates);
         loadInfo(data, candidates);
     });

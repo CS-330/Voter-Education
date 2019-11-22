@@ -1,5 +1,30 @@
 {
-	"topics": ["healthcare", "immigration", "taxes", "guns", "foreign", "LGBTQ"],	
+	"topics": {
+		"healthcare": {
+			"name": "Healthcare",
+			"image": "images/topics/healthcare.png"
+		},
+		"immigration": {
+			"name": "Immigration",
+			"image": "images/topics/immigration.png"
+		},
+		"taxes": {
+			"name": "Taxes",
+			"image": "images/topics/taxes.png"
+		}, 
+		"guns": {
+			"name": "Guns",
+			"image": "images/topics/guns.png"
+		}, 
+		"foreign": {
+			"name": "Foreign Affairs",
+			"image": "images/topics/foreignAffairs.png"
+		}, 
+		"LGBTQ": {
+			"name": "LGBTQ+ Rights",
+			"image": "images/topics/lgbtq+.png"
+		}
+	},	
 	"gary": {
 		"name": "Gary Squarepants",
 		"shortname": "G. Squarepants",

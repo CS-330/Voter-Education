@@ -24,75 +24,77 @@
 			"name": "LGBTQ+ Rights",
 			"image": "images/topics/lgbtq+.png"
 		}
-	},	
-	"gary": {
-		"name": "Gary Squarepants",
-		"shortname": "G. Squarepants",
-		"image": "images/candidates/gary.png",
-		"party" : "Green",
-		"stances": {
-			"healthcare": 20,
-			"immigration": 15,
-			"taxes": 30,
-			"guns": 23,
-			"foreign": 21,
-			"LGBTQ": 25
-		}
 	},
-	"mrKrabs":{
-		"name": "Eugene Krabs",
-		"shortname": "E. Krabs",
-		"image": "images/candidates/mrKrabs.png",
-		"party" : "Republican",
-		"stances": {
-			"healthcare": 100,
-			"immigration": 90,
-			"taxes": 100,
-			"guns": 80,
-			"foreign": 85,
-			"LGBTQ": 70
-		}
-	},
-	"patrick":{
-		"name": "Patrick Star",
-		"shortname": "P. Star",
-		"image": "images/candidates/patrick.png",
-		"party" : "Republican",
-		"stances": {
-			"healthcare": 80,
-			"immigration": 70,
-			"taxes": 65,
-			"guns": 75,
-			"foreign": 65,
-			"LGBTQ": 55
-		}
-	},
-	"spongebob":{
-		"name": "Spongebob Squarepants",
-		"shortname": "S. Squarepants",
-		"image": "images/candidates/spongebob.png",
-		"party" : "Democrat",
-		"stances": {
-			"healthcare": 10,
-			"immigration": 15,
-			"taxes": 12,
-			"guns": 17,
-			"foreign": 5,
-			"LGBTQ": 9
-		}
-	},
-	"squidward":{
-		"name": "Squidward Tentacles",
-		"shortname": "S. Tentacles",
-		"image": "images/candidates/squidward.png",
-		"party" : "Democrat",
-		"stances": {
-			"healthcare": 40,
-			"immigration": 60,
-			"taxes": 40,
-			"guns": 55,
-			"foreign": 45,
-			"LGBTQ": 42
+	"candidates": {	
+		"gary": {
+			"name": "Gary Squarepants",
+			"shortname": "G. Squarepants",
+			"image": "images/candidates/gary.png",
+			"party" : "Green",
+			"stances": {
+				"healthcare": 20,
+				"immigration": 15,
+				"taxes": 30,
+				"guns": 23,
+				"foreign": 21,
+				"LGBTQ": 25
+			}
+		},
+		"mrKrabs":{
+			"name": "Eugene Krabs",
+			"shortname": "E. Krabs",
+			"image": "images/candidates/mrKrabs.png",
+			"party" : "Republican",
+			"stances": {
+				"healthcare": 100,
+				"immigration": 90,
+				"taxes": 100,
+				"guns": 80,
+				"foreign": 85,
+				"LGBTQ": 70
+			}
+		},
+		"patrick":{
+			"name": "Patrick Star",
+			"shortname": "P. Star",
+			"image": "images/candidates/patrick.png",
+			"party" : "Republican",
+			"stances": {
+				"healthcare": 80,
+				"immigration": 70,
+				"taxes": 65,
+				"guns": 75,
+				"foreign": 65,
+				"LGBTQ": 55
+			}
+		},
+		"spongebob":{
+			"name": "Spongebob Squarepants",
+			"shortname": "S. Squarepants",
+			"image": "images/candidates/spongebob.png",
+			"party" : "Democrat",
+			"stances": {
+				"healthcare": 10,
+				"immigration": 15,
+				"taxes": 12,
+				"guns": 17,
+				"foreign": 5,
+				"LGBTQ": 9
+			}
+		},
+		"squidward":{
+			"name": "Squidward Tentacles",
+			"shortname": "S. Tentacles",
+			"image": "images/candidates/squidward.png",
+			"party" : "Democrat",
+			"stances": {
+				"healthcare": 40,
+				"immigration": 60,
+				"taxes": 40,
+				"guns": 55,
+				"foreign": 45,
+				"LGBTQ": 42
+			}
 		}
 	}
 }

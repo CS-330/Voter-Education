@@ -2,35 +2,36 @@
     <head>
         <title>Foreign Affairs Page</title>
         <link rel="stylesheet" type="text/css" href="topicpages.css"/>
+        <script type="text/javascript" src="src/topicpage.js"></script>
     </head>
-    <body>
+    <body onload="init('foreign')">
         <div id="screen">
               <div class="head-bar">
-                    <h1 >Foreign Affairs</h1>
+                    <h1 id = "topic"></h1>
               </div>
-              <img class = "profilePic" src="images/topics/foreignAffairs.png" alt="Foreign Affairs Picture">
+              <img id = "profilePic" src="" alt="">
               <p id="barlabel">Liberal Conservative</p>
 
               <div class = "stances"> 
-                <div class = "stance">
+                <div class = "stance" id = "spongebob">
                   <p class = "stancelabel">S. Squarepants: </p> 
-                  <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
+                  <input type="range" id="myRange" disabled="true" class = "stanceBar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "patrick">
                   <p class = "stancelabel">P. Star: </p> 
-                  <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
+                  <input type="range" id="myRange" disabled="true" class = "stanceBar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "mrKrabs">
                   <p class = "stancelabel">E. Krabs: </p> 
-                  <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
+                  <input type="range" id="myRange" disabled="true" class = "stanceBar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "squidward">
                   <p class = "stancelabel">S. Tentacles: </p> 
-                  <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
+                  <input type="range" id="myRange" disabled="true" class = "stanceBar" value = 0>
                 </div>
-                <div class = "stance">
+                <div class = "stance" id = "gary">
                   <p class = "stancelabel">G. Squarepants: </p> 
-                  <input type="range" id="myRange" disabled="true" class = "stancebar" value = 0>
+                  <input type="range" id="myRange" disabled="true" class = "stanceBar" value = 0>
                 </div>
               </div>
               <a href = "topics.html"> <!-- makes arrow go back to topics -->

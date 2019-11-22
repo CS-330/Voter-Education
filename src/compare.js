@@ -32,8 +32,8 @@ function loadTopic(topic, candidate0, candidate1) {
 }
 
 function loadInfo(data, candidates) {
-    candidate0 = data[candidates[0]];
-    candidate1 = data[candidates[1]];
+    candidate0 = data["candidates"][candidates[0]];
+    candidate1 = data["candidates"][candidates[1]];
     document.getElementById('comparePicL').setAttribute("src", candidate0["image"])
     document.getElementById('comparePicL').setAttribute("alt", candidate0["name"] + "'s Profile Picture");
     document.getElementById('comparePicR').setAttribute("src", candidate1["image"])
@@ -42,8 +42,8 @@ function loadInfo(data, candidates) {
     document.getElementById('compareNameL').innerHTML = candidate0['shortname'];
     document.getElementById('compareNameR').innerHTML = candidate1['shortname'];
 
-    for (var i = 0; i <  data['topics'].length; i++) {
-        loadTopic(data['topics'][i], candidate0, candidate1);
+    for (var topic of Object.keys(data["topics"])) {
+        loadTopic(topic, candidate0, candidate1);
     }
 }
 

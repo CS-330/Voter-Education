@@ -15,30 +15,31 @@ function loadJSON(callback) {
     xobj.send(null);  
  }
 
-function init(candidateName) {
+function init(topicName) {
     loadJSON(function(response) {
         // Parse JSON string into object
         data = JSON.parse(response);
         console.log(data);
 
-        console.log(candidateName);
-        loadInfo(data, candidateName);
+        console.log(topicName);
+        loadInfo(data, topicName);
     });
 }
 
-function loadTopic(topic, candidate) {
-    var topicWrapper = document.getElementById(topic);
-    topicWrapper.getElementsByClassName('stanceBar')[0].value = candidate['stances'][topic];
+function loadCandidate(topicName, candidate, data) {
+    console.log(topicName, candidate);
+    var candidateWrapper = document.getElementById(candidate);
+    candidateWrapper.getElementsByClassName('stanceBar')[0].value = data["candidates"][candidate]['stances'][topicName];
 }
 
-function loadInfo(data, candidateName) {
-    candidate = data["candidates"][candidateName];
-    document.getElementById('profilePic').setAttribute("src", candidate["image"])
-    document.getElementById('profilePic').setAttribute("alt", candidate["name"] + "'s Profile Picture");
+function loadInfo(data, topicName) {
+    topic = data["topics"][topicName];
+    document.getElementById('profilePic').setAttribute("src", topic["image"])
+    document.getElementById('profilePic').setAttribute("alt", topic["name"] + " Profile Picture");
 
-    document.getElementById('name').innerHTML = candidate['shortname'];
+    document.getElementById('topic').innerHTML = topic["name"];
 
-    for (var topic of Object.keys(data["topics"])) {
-        loadTopic(topic, candidate);
+    for (var candidate of Object.keys(data["candidates"])) {
+        loadCandidate(topicName, candidate, data);
     }
 }

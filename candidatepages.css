@@ -19,6 +19,12 @@ body {
 	margin-bottom: -15px;
 }
 
+.mediawrapper{
+	overflow-y: scroll;
+	height:435px;
+	margin-bottom: -5px;
+}
+
 .head-bar {
 	height: 45px;
 	background-color:gray;
@@ -33,6 +39,21 @@ body {
 	width: 150px;
 }
 
+.video{
+	height: 150px;
+	width: 290px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.bottom-bar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 300px;
+}
+
 .back-button {
 	float: left;
 	padding-top: 5px;
@@ -41,6 +62,13 @@ body {
 	width: 64px;
 	padding-top: 15px;
 }
+
+.social-button{
+	font-size: 20px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
 .stancelabel {
 	font-size: 12px;
 }

@@ -47,14 +47,15 @@ button {
 }
 
 #compareButton {
-	width: 80px;
+	width: 210px;
 	background-color: lightblue;
 }
 
 #runComparisonButton {
-	width: 50px;
+	width: 40px;
 	background-color: lightblue;
 	display: none;
+
 }
 
 #compareButton.clicked {
@@ -172,84 +173,4 @@ li{
 	margin-top: 7px;
 	padding-left: 5px;
 	border:1px solid grey;
-}
-
-/* 
-	Player 
-			*/
-.player-album-art {
-	padding-left: 30px;
-	padding-top: 30px;
-
-}
-
-.player-song-info {
-	margin-top: -20px;
-	margin-bottom: -15px;
-	text-align: center;
-	font-size: 20px;
-	color: purple;
-}
-
-#player-song-name {
-	margin-top: 10px;
-	text-align: center;
-	font-size: 20px;
-}
-
-.volume-bar {
-	height: 6px;
-	width: 24px;
-	border:1px solid black;
-	float: right;
-	margin-left: 6px;
-	margin-top: 8px;
-}
-
-.volume-level {
-	float: left;
-	height: 20px;
-	margin-top: -10px;
-}
-
-.volume-rocker {
-	width: 100px;
-}
-
-.volume-rocker:active{
-	background-color: #dec7eb;
-}
-
-.divider{
-    width:30px;
-    height:auto;
-    display:inline-block;
-}
-
-.player-controls{
-	width: 240px;
-	margin: auto;
-}
-
-.song-controls{
-	padding-left: 50px;
-	margin-top: 20px;
-	padding-bottom: 15px;
-}
-
-#player-time {
-	width: 240px;
-}
-
-#time-elapsed {
-	float: left;
-	font-size: 13px;
-	margin-top: -3px;
-	margin-left: 5px;
-}
-
-#time-total{
-	float: right;
-	font-size: 13px;
-	margin-top: -3px;
 }

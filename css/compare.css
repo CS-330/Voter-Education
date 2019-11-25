@@ -78,3 +78,12 @@
     width: 300px;
     margin-bottom: 7px;
 }
+#compareBarLabel {
+    font-size: 14px;
+    text-align: right;
+    word-spacing: 48px;
+    margin-right: 5px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+    font-weight: bold;
+}

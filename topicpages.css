@@ -36,8 +36,8 @@ body {
 	padding-top: 15px;
 }
 .stancelabel {
-	font-size: 12px;
-	align-self:left;
+	font-size: 15px;
+	margin-bottom: 0px;
 }
 
 .stancebar{
@@ -45,8 +45,8 @@ body {
 	background: #d3d3d3;
 	height: 15px;
 	align-self:right;
-	width: 190px;
-	margin-top: 13px;
+	width: 180px;
+	margin-top: 18px;
 	margin-right: 10px;
 }
 
@@ -59,7 +59,9 @@ body {
 
 .stances{
 	margin: 5px;
+	margin-top: -5px;
 }
+
 .stance{
 	display: flex;
 	flex-direction: row;
@@ -68,10 +70,15 @@ body {
 	width: 300px;
 }
 
+.barWrapper{
+	width:180px;
+	margin-right: 20px;
+}
 #barlabel {
-	font-size: 12px;
+	font-size: 14px;
 	text-align: right;
-	word-spacing: 95px;
+	word-spacing: 48px;
 	margin-right: 5px;
 	margin-bottom: -10px;
+	font-weight: bold;
 }
